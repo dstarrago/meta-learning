@@ -18,6 +18,12 @@ For more details see:
 
 More generally, a number of classification algorithms can be mapped and different volumes can be identified in the space of data complexity as the good behavior domain for each algorithm. Given a new data set, its position in the complexity coordinates can be mapped against the domain of competences of a set of classification algorithms to select the best option.
 
+Developed with:
+- Java 1.8
+- NetBeans IDE 8.2
 
+Dependencies:
+- Weka 3.7
+- <a href="https://github.com/dstarrago/rough-sets">RoughSets</a>
 
 
