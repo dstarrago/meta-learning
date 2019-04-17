@@ -2,6 +2,11 @@
 Meta learning framework based on rough set measures
 
 The framework allows batch computing of rough set measures for a number of data sets and to determine a set of rules describing the domain of competence of a classification algorithm. That information can help to choose an appropriate classification algorithm for a certain data set. Included rough set measures are:
+- rough membership
+- rough involvement
+- rough agreement
+- rough class quality
+
 
 Usage:
 
