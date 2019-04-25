@@ -14,7 +14,7 @@ The framework was used to create mappings of the domain of competence of classif
 
 For more details see:
 
-- Sanchez Tarrago, D., Bello, R., Herrera, F.: Data Complexity by means of Rough Set Measures. In: Proceedings of the Cuba-Flanders Workshop on Machine Learning and Knowledge Discovery (CF-WML-KD2010). Editorial Feijoó, Central University Marta Abreu de Las Villas (2010). <a href="https://www.researchgate.net/publication/332462004_Data_Complexity_by_means_of_Rough_Set_Measures">(text)</a>
+- Sanchez Tarrago, D., Bello, R., Herrera, F.: Data Complexity by means of Rough Set Measures. In: Proceedings of the Cuba-Flanders Workshop on Machine Learning and Knowledge Discovery (CF-WML-KD2010). Editorial Feijoó, Central University Marta Abreu de Las Villas (2010). <a href="https://www.researchgate.net/publication/332462004_Data_Complexity_by_means_of_Rough_Set_Measures" target="_blank">(text)</a>
 
 More generally, a number of classification algorithms can be mapped and different volumes can be identified in the space of data complexity as the good behavior domain for each algorithm. Given a new data set, its position in the complexity coordinates can be mapped against the domain of competences of a set of classification algorithms to select the best option.
 
