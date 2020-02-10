@@ -1,7 +1,7 @@
 # meta-learning
-Meta learning framework based on rough set measures
+Utility software to compute Rough-Set-Theory-based measures for characterizing competence domain of classification models.
 
-The framework allows batch computing of rough set measures for a number of data sets and to determine a set of rules describing the domain of competence of a classification algorithm. That information can help to choose an appropriate classification algorithm for a certain data set. Included rough set measures are (see <a href="https://github.com/dstarrago/rough-sets">rough-set project</a>):
+The software allows batch computing of rough set measures for a number of data sets and to determine a set of rules describing the domain of competence of a classification algorithm. That information can help to choose an appropriate classification algorithm for a given data set. Included rough set measures are (see <a href="https://github.com/dstarrago/rough-sets">rough-set project</a>):
 - rough membership
 - rough involvement
 - rough agreement
@@ -10,7 +10,7 @@ The framework allows batch computing of rough set measures for a number of data 
 
 Usage:
 
-The framework was used to create mappings of the domain of competence of classification algorithms. For that purpose, a significant amount of data sets were processed. The data sets were as diverse as possible, i.e., comming from different application domains, having different dimensions (number of examples and number of descriptive attributes), different attribute types and different apparent complexities; so that the data sets complexity measures covered as much as possible the whole space of data complexity. In that way, the dimensions of the data complexity space were defined by the rough set measures. The C4.5 classification algorithm was mapped and its good behavior region in the complexity space was learned. In that way, we were able to predict the C4.5 behavior for new data sets, just calculating the data set complexity measures and comparing its position in the complexity map with the C4.5 good behavior region. 
+The software was used to create mappings of the domain of competence of classification algorithms. For that purpose, a significant amount of data sets were processed. The data sets were as diverse as possible, i.e., comming from different application domains, having different dimensions (number of examples and number of descriptive attributes), different attribute types and different apparent complexities; so that the data sets complexity measures covered as much as possible the whole space of data complexity. In that way, the dimensions of the data complexity space were defined by the rough set measures. The C4.5 classification algorithm was mapped and its good behavior region in the complexity space was learned. In that way, we were able to predict the C4.5 behavior for new data sets, just calculating the data set complexity measures and comparing its position in the complexity map with the C4.5 good behavior region. 
 
 For more details see:
 
